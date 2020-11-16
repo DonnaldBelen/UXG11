@@ -72,9 +72,9 @@ namespace HutongGames.PlayMaker.Actions
         }
         public void set_kinect_data(RosData rosdata)
         {
-            RectTransform rt = GazePanel.GetComponent<RectTransform>();
-            RectTransform rt_leyes = GazePanel_leyes.GetComponent<RectTransform>();
-            RectTransform rt_reyes = GazePanel_reyes.GetComponent<RectTransform>();
+            RectTransform rt = GazePanel.Value.GetComponent<RectTransform>();
+            RectTransform rt_leyes = GazePanel_leyes.Value.GetComponent<RectTransform>();
+            RectTransform rt_reyes = GazePanel_reyes.Value.GetComponent<RectTransform>();
 
             nose_offset_x = 0;
             nose_offset_y = 0;
